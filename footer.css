@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;  
+    align-items: end;
+    font-family: "Lobster", sans-serif;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #212121;
+    /* background-color: black;  */
+    padding: 20px 0px;
+
+}
+#left{
+    display: flex;
+    width: 60%;
+    background-color: #212121;
+}
+#right{
+    display: flex;
+    width: 30%;
+    background-color: #212121;
+    border-left: 2px solid grey;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+h3{
+    font-size: 18px;
+    font-weight: 200;
+    color: grey;
+}
+li{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
